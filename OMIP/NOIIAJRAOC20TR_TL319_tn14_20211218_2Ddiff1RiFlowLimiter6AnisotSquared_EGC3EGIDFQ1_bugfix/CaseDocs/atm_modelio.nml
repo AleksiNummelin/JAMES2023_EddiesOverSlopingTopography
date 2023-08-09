@@ -1,0 +1,13 @@
+&modelio
+  diri = "/cluster/work/users/anu074/noresm/NOIIAJRAOC20TR_TL319_tn14_20211218_2Ddiff1RiFlowLimiter6AnisotSquared_EGC3EGIDFQ1_bugfix/bld/atm"
+  diro = "/cluster/work/users/anu074/noresm/NOIIAJRAOC20TR_TL319_tn14_20211218_2Ddiff1RiFlowLimiter6AnisotSquared_EGC3EGIDFQ1_bugfix/run"
+  logfile = "atm.log.430291.220906-112254"
+/
+&pio_inparm
+  pio_netcdf_format = "64bit_offset"
+  pio_numiotasks = -99
+  pio_rearranger = 1
+  pio_root = 1
+  pio_stride = 128
+  pio_typename = "netcdf"
+/

@@ -1,0 +1,114 @@
+2022-08-15 17:22:26: ./cime/scripts/create_clone --case ../cases/NOIIAJRAOC20TR_TL319_tn14_20211218_2Ddiff1RiFlowLimiter6_EGC3EGIDFQ1_bugfix --clone ../cases/NOIIAJRAOC20TR_TL319_tn14_20211218_2Ddiff1RiFlowLimiter6Anisot_EGC3EGIDFQ1_bugfix
+ ---------------------------------------------------
+2022-08-15 17:22:26: Compset longname is 20TR_DATM%JRA_SLND_CICE%NORESM-CMIP6_BLOM%ECO_DROF%JRA_SGLC_SWAV
+ ---------------------------------------------------
+2022-08-15 17:22:26: Compset specification file is /cluster/home/anu074/NorESM2/noresm_2.0.5_blom_feature_diffusivity2_anisot/cime/../components/blom//cime_config/config_compsets.xml
+ ---------------------------------------------------
+2022-08-15 17:22:26: Pes     specification file is /cluster/home/anu074/NorESM2/noresm_2.0.5_blom_feature_diffusivity2_anisot/cime/../components/blom//cime_config/config_pes.xml
+ ---------------------------------------------------
+2022-08-15 17:22:26: INFORMATION ABOUT YOUR GIT VERSION CONTROL SYSTEM :
+ ---------------------------------------------------
+2022-08-15 17:22:26: remote branch:origin	https://github.com/NorESMhub/cime (fetch)
+origin	https://github.com/NorESMhub/cime (push)
+ ---------------------------------------------------
+2022-08-15 17:22:26: git branch:* (detached from cime5.6.10_cesm2_1_rel_06-Nor_v1.0.5) d530a3c Merge pull request #27 from monsieuralok/cime5.6.10_cesm2_1_rel_06-Nor
+  master                                               4c26f56 [origin/master] Merge pull request #3383 from cacraigucar/add_namelist_double
+ ---------------------------------------------------
+2022-08-15 17:22:26: git log:b'commit d530a3c3ba952bfa6f2d63db79d290a18d2c663c\nMerge: dbdeebf 9c84cc5\nAuthor: monsieuralok <alok.gupta@uni.no>\nDate:   Fri Apr 9 11:06:53 2021 +0200\n\n    Merge pull request #27 from monsieuralok/cime5.6.10_cesm2_1_rel_06-Nor\n    \n    changes for FRAM as preproc queue has removed'
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2022-02-24 15:16:22: ./cime/scripts/create_clone --case ../cases/NOIIAJRAOC20TR_TL319_tn14_20211218_2Ddiff1RiFlowLimiter6Anisot_EGC3EGIDFQ1_bugfix --clone ../cases/NOIIAJRAOC20TR_TL319_tn14_20211218_2Ddiff1RiFlowLimiter6Anisot_EGC4EGIDFQ1_bugfix
+ ---------------------------------------------------
+2022-02-24 15:16:22: Compset longname is 20TR_DATM%JRA_SLND_CICE%NORESM-CMIP6_BLOM%ECO_DROF%JRA_SGLC_SWAV
+ ---------------------------------------------------
+2022-02-24 15:16:22: Compset specification file is /cluster/home/anu074/NorESM2/noresm_2.0.5_blom_feature_diffusivity2_anisot/cime/../components/blom//cime_config/config_compsets.xml
+ ---------------------------------------------------
+2022-02-24 15:16:22: Pes     specification file is /cluster/home/anu074/NorESM2/noresm_2.0.5_blom_feature_diffusivity2_anisot/cime/../components/blom//cime_config/config_pes.xml
+ ---------------------------------------------------
+2022-02-24 15:16:22: INFORMATION ABOUT YOUR GIT VERSION CONTROL SYSTEM :
+ ---------------------------------------------------
+2022-02-24 15:16:22: remote branch:origin	https://github.com/NorESMhub/cime (fetch)
+origin	https://github.com/NorESMhub/cime (push)
+ ---------------------------------------------------
+2022-02-24 15:16:22: git branch:* (detached from cime5.6.10_cesm2_1_rel_06-Nor_v1.0.5) d530a3c Merge pull request #27 from monsieuralok/cime5.6.10_cesm2_1_rel_06-Nor
+  master                                               4c26f56 [origin/master] Merge pull request #3383 from cacraigucar/add_namelist_double
+ ---------------------------------------------------
+2022-02-24 15:16:22: git log:b'commit d530a3c3ba952bfa6f2d63db79d290a18d2c663c\nMerge: dbdeebf 9c84cc5\nAuthor: monsieuralok <alok.gupta@uni.no>\nDate:   Fri Apr 9 11:06:53 2021 +0200\n\n    Merge pull request #27 from monsieuralok/cime5.6.10_cesm2_1_rel_06-Nor\n    \n    changes for FRAM as preproc queue has removed'
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2022-02-23 12:16:43: ./cime/scripts/create_clone --case ../cases/NOIIAJRAOC20TR_TL319_tn14_20211218_2Ddiff1RiFlowLimiter6Anisot_EGC4EGIDFQ1_bugfix --clone ../cases/NOIIAJRAOC20TR_TL319_tn14_20211218_2Ddiff1RiFlowLimiter6Anisot_EGC2EGIDFQ1
+ ---------------------------------------------------
+2022-02-23 12:16:43: Compset longname is 20TR_DATM%JRA_SLND_CICE%NORESM-CMIP6_BLOM%ECO_DROF%JRA_SGLC_SWAV
+ ---------------------------------------------------
+2022-02-23 12:16:43: Compset specification file is /cluster/home/anu074/NorESM2/noresm_2.0.5_blom_feature_diffusivity2_anisot/cime/../components/blom//cime_config/config_compsets.xml
+ ---------------------------------------------------
+2022-02-23 12:16:43: Pes     specification file is /cluster/home/anu074/NorESM2/noresm_2.0.5_blom_feature_diffusivity2_anisot/cime/../components/blom//cime_config/config_pes.xml
+ ---------------------------------------------------
+2022-02-23 12:16:43: INFORMATION ABOUT YOUR GIT VERSION CONTROL SYSTEM :
+ ---------------------------------------------------
+2022-02-23 12:16:43: remote branch:origin	https://github.com/NorESMhub/cime (fetch)
+origin	https://github.com/NorESMhub/cime (push)
+ ---------------------------------------------------
+2022-02-23 12:16:43: git branch:* (detached from cime5.6.10_cesm2_1_rel_06-Nor_v1.0.5) d530a3c Merge pull request #27 from monsieuralok/cime5.6.10_cesm2_1_rel_06-Nor
+  master                                               4c26f56 [origin/master] Merge pull request #3383 from cacraigucar/add_namelist_double
+ ---------------------------------------------------
+2022-02-23 12:16:43: git log:b'commit d530a3c3ba952bfa6f2d63db79d290a18d2c663c\nMerge: dbdeebf 9c84cc5\nAuthor: monsieuralok <alok.gupta@uni.no>\nDate:   Fri Apr 9 11:06:53 2021 +0200\n\n    Merge pull request #27 from monsieuralok/cime5.6.10_cesm2_1_rel_06-Nor\n    \n    changes for FRAM as preproc queue has removed'
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2021-12-18 21:02:41: ./cime/scripts/create_newcase --case /cluster/home/anu074/NorESM2/cases/NOIIAJRAOC20TR_TL319_tn14_20211218_2Ddiff1RiFlowLimiter6Anisot_EGC2EGIDFQ1 --compset NOIIAJRAOC20TR --res TL319_tn14 --machine betzy --project nn9252k --run-unsupported
+ ---------------------------------------------------
+2021-12-18 21:02:41: Compset longname is 20TR_DATM%JRA_SLND_CICE%NORESM-CMIP6_BLOM%ECO_DROF%JRA_SGLC_SWAV
+ ---------------------------------------------------
+2021-12-18 21:02:41: Compset specification file is /cluster/home/anu074/NorESM2/noresm_2.0.5_blom_feature_diffusivity2_anisot/components/blom//cime_config/config_compsets.xml
+ ---------------------------------------------------
+2021-12-18 21:02:41: Pes     specification file is /cluster/home/anu074/NorESM2/noresm_2.0.5_blom_feature_diffusivity2_anisot/components/blom//cime_config/config_pes.xml
+ ---------------------------------------------------
+2021-12-18 21:02:41: Forcing is Twentieth century transient
+ ---------------------------------------------------
+2021-12-18 21:02:41: Using None coupler instances
+ ---------------------------------------------------
+2021-12-18 21:02:41: Component ATM is  Data driven ATM interannual JRA55 forcing
+ ---------------------------------------------------
+2021-12-18 21:02:41: ATM_GRID is TL319
+ ---------------------------------------------------
+2021-12-18 21:02:41: Component LND is Stub land component
+ ---------------------------------------------------
+2021-12-18 21:02:41: LND_GRID is null
+ ---------------------------------------------------
+2021-12-18 21:02:41: Component ICE is Sea ICE (cice) model version 5 :with NORESM modifications appropriate for CMIP6 experiments
+ ---------------------------------------------------
+2021-12-18 21:02:41: ICE_GRID is tnx1v4
+ ---------------------------------------------------
+2021-12-18 21:02:41: This component includes user_mods /cluster/home/anu074/NorESM2/noresm_2.0.5_blom_feature_diffusivity2_anisot/components/cice/cime_config/usermods_dirs/noresm-cmip6
+ ---------------------------------------------------
+2021-12-18 21:02:41: Component OCN is BLOM default:BLOM/Ecosystem:
+ ---------------------------------------------------
+2021-12-18 21:02:41: OCN_GRID is tnx1v4
+ ---------------------------------------------------
+2021-12-18 21:02:41: Component ROF is Data runoff modelJRA55 interannual forcing
+ ---------------------------------------------------
+2021-12-18 21:02:41: ROF_GRID is JRA025
+ ---------------------------------------------------
+2021-12-18 21:02:41: Component GLC is Stub glacier (land ice) component
+ ---------------------------------------------------
+2021-12-18 21:02:41: GLC_GRID is null
+ ---------------------------------------------------
+2021-12-18 21:02:41: Component WAV is Stub wave component
+ ---------------------------------------------------
+2021-12-18 21:02:41: WAV_GRID is null
+ ---------------------------------------------------
+2021-12-18 21:02:41: ESP_GRID is None
+ ---------------------------------------------------
+2021-12-18 21:02:41: INFORMATION ABOUT YOUR GIT VERSION CONTROL SYSTEM :
+ ---------------------------------------------------
+2021-12-18 21:02:41: remote branch:origin	https://github.com/NorESMhub/cime (fetch)
+origin	https://github.com/NorESMhub/cime (push)
+ ---------------------------------------------------
+2021-12-18 21:02:41: git branch:* (detached from cime5.6.10_cesm2_1_rel_06-Nor_v1.0.5) d530a3c Merge pull request #27 from monsieuralok/cime5.6.10_cesm2_1_rel_06-Nor
+  master                                               4c26f56 [origin/master] Merge pull request #3383 from cacraigucar/add_namelist_double
+ ---------------------------------------------------
+2021-12-18 21:02:41: git log:b'commit d530a3c3ba952bfa6f2d63db79d290a18d2c663c\nMerge: dbdeebf 9c84cc5\nAuthor: monsieuralok <alok.gupta@uni.no>\nDate:   Fri Apr 9 11:06:53 2021 +0200\n\n    Merge pull request #27 from monsieuralok/cime5.6.10_cesm2_1_rel_06-Nor\n    \n    changes for FRAM as preproc queue has removed'
+ ---------------------------------------------------

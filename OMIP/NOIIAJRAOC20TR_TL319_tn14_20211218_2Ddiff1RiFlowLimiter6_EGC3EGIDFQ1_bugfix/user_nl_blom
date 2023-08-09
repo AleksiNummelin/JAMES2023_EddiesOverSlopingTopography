@@ -1,0 +1,15 @@
+#----------------------------------------------------------------------------------
+# Users should add all user specific namelist changes below in the form of 
+#   namelist_var = new_namelist_value 
+# Note - that it does not matter what namelist group the namelist_var belongs to
+#----------------------------------------------------------------------------------
+RHISCTP  = .true.
+RHISCTPTW= .false.
+RHISCF   = 1.
+EDSPRS   = .false.
+ANISOT   = .false.
+EGC      = 3.
+EGMNDF   = 1.e4
+EGMXDF   = 2500.e4
+EGIDFQ   = 1.
+BTPFILE  = '/cluster/shared/noresm/inputdata/ocn/blom/bndcon/topo_beta_tnx1v4_20170622_python_coarse_nc64bitoffset.nc'

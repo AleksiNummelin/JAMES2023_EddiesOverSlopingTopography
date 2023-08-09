@@ -1,0 +1,33 @@
+
+<dataSource>
+   GENERIC
+</dataSource>
+<domainInfo>
+  <variableNames>
+     time    time
+        lonc    lon
+        latc    lat
+        area    area
+        mask    mask
+  </variableNames>
+  <filePath>
+     /cluster/shared/noresm/inputdata/atm/datm7/CO2
+  </filePath>
+  <fileNames>
+     fco2_datm_global_ssp585_simyr_1750-2020_CMIP6_c190522.nc
+  </fileNames>
+</domainInfo>
+<fieldInfo>
+   <variableNames>
+     CO2        co2diag
+   </variableNames>
+   <filePath>
+     /cluster/shared/noresm/inputdata/atm/datm7/CO2
+   </filePath>
+   <fileNames>
+    fco2_datm_global_ssp585_simyr_1750-2020_CMIP6_c190522.nc
+   </fileNames>
+   <offset>
+      0
+   </offset>
+</fieldInfo>

@@ -1,0 +1,13 @@
+&modelio
+  diri = "/cluster/work/users/anu074/noresm/NOIIAJRAOC20TR_TL319_tn14_20211218_2Ddiff05RiFlowLimiter6AnisotSquared_EGC3EGIDFQ1_bugfix_branchrun/bld/esp"
+  diro = "/cluster/work/users/anu074/noresm/NOIIAJRAOC20TR_TL319_tn14_20211218_2Ddiff05RiFlowLimiter6AnisotSquared_EGC3EGIDFQ1_bugfix_branchrun/run"
+  logfile = "esp.log.684795.230711-144525"
+/
+&pio_inparm
+  pio_netcdf_format = ""
+  pio_numiotasks = -99
+  pio_rearranger = -99
+  pio_root = -99
+  pio_stride = -99
+  pio_typename = "nothing"
+/

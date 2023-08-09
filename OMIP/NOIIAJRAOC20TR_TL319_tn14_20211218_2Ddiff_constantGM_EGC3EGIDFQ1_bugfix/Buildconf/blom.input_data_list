@@ -1,0 +1,16 @@
+grid_file = /cluster/shared/noresm/inputdata/ocn/blom/grid/grid_tnx1v4_20170622.nc
+meridional_transport_index_file = /cluster/shared/noresm/inputdata/ocn/blom/grid/mertra_index_tnx1v4_20190615.dat
+meridional_transport_basin_file = /cluster/shared/noresm/inputdata/ocn/blom/grid/ocean_regions_tnx1v4_20190729.nc
+section_index_file = /cluster/shared/noresm/inputdata/ocn/blom/grid/section_index_tnx1v4_20190611.dat
+tidal_dissipation_file = /cluster/shared/noresm/inputdata/ocn/blom/bndcon/tidal_dissipation_tnx1v4_20170605.nc
+sss_climatology_file = /cluster/shared/noresm/inputdata/ocn/blom/bndcon/sss_clim_core_tnx1v4_20170604.nc
+dust_file = /cluster/shared/noresm/inputdata/ocn/blom/bndcon/dustdep_mhw2006_tnx1v4_20171107.nc
+river_file = /cluster/shared/noresm/inputdata/ocn/blom/bndcon/river_nutrients_GNEWS2000_tnx1v4_20170820.nc
+n_deposition_file = /cluster/shared/noresm/inputdata/ocn/blom/bndcon/ndep_185001-201412_tnx1v4_20180613.nc
+inicon_file = /cluster/shared/noresm/inputdata/ocn/blom/inicon/inicon_tnx1v4_20170622.nc
+inidic_file = /cluster/shared/noresm/inputdata/ocn/blom/inicon/glodapv2_Ct_preind_OMIPinit_20171107.nc
+inialk_file = /cluster/shared/noresm/inputdata/ocn/blom/inicon/glodapv2_At_OMIPinit_20171107.nc
+inipo4_file = /cluster/shared/noresm/inputdata/ocn/blom/inicon/woa13_phosphate_OMIPinit_20171107.nc
+inioxy_file = /cluster/shared/noresm/inputdata/ocn/blom/inicon/woa13_oxygen_OMIPinit_20171107.nc
+inino3_file = /cluster/shared/noresm/inputdata/ocn/blom/inicon/woa13_nitrate_OMIPinit_20171107.nc
+inisil_file = /cluster/shared/noresm/inputdata/ocn/blom/inicon/woa13_silicate_OMIPinit_20171107.nc

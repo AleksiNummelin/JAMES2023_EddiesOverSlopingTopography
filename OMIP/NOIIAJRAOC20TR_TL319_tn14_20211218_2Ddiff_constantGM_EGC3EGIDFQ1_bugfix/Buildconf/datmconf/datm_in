@@ -1,0 +1,47 @@
+&datm_nml
+  decomp = "1d"
+  factorfn = "null"
+  force_prognostic_true = .false.
+  iradsw = 1
+  presaero = .true.
+  restfilm = "undefined"
+  restfils = "undefined"
+  wiso_datm = .false.
+/
+&shr_strdata_nml
+  datamode = "CORE_IAF_JRA"
+  domainfile = "/cluster/shared/noresm/inputdata/share/domains/domain.lnd.TL319_tnx1v4.170928.nc"
+  dtlimit = 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5
+  fillalgo = "nn", "nn", "nn", "nn", "nn", "nn", "nn", "nn", "nn", "nn"
+  fillmask = "nomask", "nomask", "nomask", "nomask", "nomask", "nomask",
+      "nomask", "nomask", "nomask", "nomask"
+  fillread = "NOT_SET", "NOT_SET", "NOT_SET", "NOT_SET", "NOT_SET", "NOT_SET",
+      "NOT_SET", "NOT_SET", "NOT_SET", "NOT_SET"
+  fillwrite = "NOT_SET", "NOT_SET", "NOT_SET", "NOT_SET", "NOT_SET", "NOT_SET",
+      "NOT_SET", "NOT_SET", "NOT_SET", "NOT_SET"
+  mapalgo = "bilinear", "bilinear", "bilinear", "bilinear", "bilinear",
+      "bilinear", "bilinear", "bilinear", "bilinear", "nn"
+  mapmask = "nomask", "nomask", "nomask", "nomask", "nomask", "nomask",
+      "nomask", "nomask", "nomask", "nomask"
+  mapread = "NOT_SET", "NOT_SET", "NOT_SET", "NOT_SET", "NOT_SET", "NOT_SET",
+      "NOT_SET", "NOT_SET", "NOT_SET", "NOT_SET"
+  mapwrite = "NOT_SET", "NOT_SET", "NOT_SET", "NOT_SET", "NOT_SET", "NOT_SET",
+      "NOT_SET", "NOT_SET", "NOT_SET", "NOT_SET"
+  readmode = "single", "single", "single", "single", "single", "single",
+      "single", "single", "single", "single"
+  streams = "datm.streams.txt.CORE_IAF_JRA.GCGCS.PREC 1958 1958 2018",
+      "datm.streams.txt.CORE_IAF_JRA.GISS.LWDN 1958 1958 2018",
+      "datm.streams.txt.CORE_IAF_JRA.GISS.SWDN 1958 1958 2018",
+      "datm.streams.txt.CORE_IAF_JRA.NCEP.Q_10 1958 1958 2018",
+      "datm.streams.txt.CORE_IAF_JRA.NCEP.SLP_ 1958 1958 2018",
+      "datm.streams.txt.CORE_IAF_JRA.NCEP.T_10 1958 1958 2018",
+      "datm.streams.txt.CORE_IAF_JRA.NCEP.U_10 1958 1958 2018",
+      "datm.streams.txt.CORE_IAF_JRA.NCEP.V_10 1958 1958 2018",
+      "datm.streams.txt.presaero.cesm2_omip2 1652 1652 2019",
+      "datm.streams.txt.co2tseries.omip2 1850 1850 2019"
+  taxmode = "cycle", "cycle", "cycle", "cycle", "cycle", "cycle", "cycle",
+      "cycle", "limit", "extend"
+  tintalgo = "linear", "linear", "linear", "linear", "linear", "linear",
+      "linear", "linear", "linear", "linear"
+  vectors = "u:v"
+/

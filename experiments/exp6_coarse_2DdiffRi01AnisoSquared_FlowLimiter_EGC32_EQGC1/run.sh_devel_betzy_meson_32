@@ -1,0 +1,48 @@
+#!/bin/bash
+set -ex
+
+EXPID=BLOM_channel_CWIDTH125_SIGDZ03_coarse_aniso_2DdiffRi01AnisoSquared_FlowLimiter_EGC32_EQGC1
+RUNDIR=/cluster/work/users/$USER/BLOM/run/$EXPID
+EXEDIR=$HOME/BLOM/BLOM_fork/BLOM/builddir_feature_diffusivity2_anisot3Dsquared_limiter_32
+SUBDIR=$HOME/BLOM/BLOM_fork/cases/$EXPID
+NTASKS=32
+NTHREADS=1
+
+#rm -rf $RUNDIR
+mkdir -p $RUNDIR
+cd $RUNDIR
+cp $SUBDIR/limits_${EXPID} ./limits
+cp $EXEDIR/blom .
+
+  cat <<EOF >batchscript.sh
+#!/bin/bash 
+#
+#  This script will launch blom
+#
+#SBATCH --account=nn9869k
+#SBATCH --job-name=BLOM.$EXPID
+#SBATCH --time=00:59:00
+#SBATCH --qos=devel
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=$NTASKS
+#SBATCH --cpus-per-task=$NTHREADS
+
+export OMP_NUM_THREADS=$NTHREADS
+
+module purge --force
+module load StdEnv
+module load netCDF-Fortran/4.5.2-iimpi-2020a
+module load PnetCDF/1.12.1-intel-2020a
+module load CMake/3.12.1
+#module load iomkl/2020a
+#module load netCDF-Fortran/4.5.2-iompi-2020a
+#module load PnetCDF/1.12.1-iompi-2020a
+module list
+
+cd $RUNDIR
+mpirun -np 32 -bind-to core ./blom
+
+EOF
+
+chmod 755 batchscript.sh
+sbatch batchscript.sh

@@ -1,0 +1,8 @@
+# set the environment and update Makefile
+. setintel_BETZY
+make depend
+# and then manually, in the Makefile, for blom.f you need to change the FFLAG to
+-real-size 64 -mkl=cluster -fp-model source -qno-opt-dynamic-align -convert big_endian -assume byterecl -ftz -O3
+# this is because the main program cannot be compiled with other than -O3 option
+make clean
+make

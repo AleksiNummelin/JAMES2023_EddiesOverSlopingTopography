@@ -1,0 +1,12 @@
+atm2ocn_fmapname = /cluster/shared/noresm/inputdata/cpl/cpl6/map_TL319_to_tnx1v4_aave_da_170928.nc
+atm2ocn_smapname = /cluster/shared/noresm/inputdata/cpl/cpl6/map_TL319_to_tnx1v4_patch_170928.nc
+atm2ocn_vmapname = /cluster/shared/noresm/inputdata/cpl/cpl6/map_TL319_to_tnx1v4_patch_170928.nc
+ocn2atm_fmapname = /cluster/shared/noresm/inputdata/cpl/cpl6/map_tnx1v4_to_TL319_aave_da_170928.nc
+ocn2atm_smapname = /cluster/shared/noresm/inputdata/cpl/cpl6/map_tnx1v4_to_TL319_aave_da_170928.nc
+atm2ice_fmapname = /cluster/shared/noresm/inputdata/cpl/cpl6/map_TL319_to_tnx1v4_aave_da_170928.nc
+atm2ice_smapname = /cluster/shared/noresm/inputdata/cpl/cpl6/map_TL319_to_tnx1v4_patch_170928.nc
+atm2ice_vmapname = /cluster/shared/noresm/inputdata/cpl/cpl6/map_TL319_to_tnx1v4_patch_170928.nc
+ice2atm_fmapname = /cluster/shared/noresm/inputdata/cpl/cpl6/map_tnx1v4_to_TL319_aave_da_170928.nc
+ice2atm_smapname = /cluster/shared/noresm/inputdata/cpl/cpl6/map_tnx1v4_to_TL319_aave_da_170928.nc
+rof2ocn_liq_rmapname = /cluster/shared/noresm/inputdata/cpl/cpl6/map_JRA025_to_tnx1v4_e1000r300_170928.nc
+rof2ocn_ice_rmapname = /cluster/shared/noresm/inputdata/cpl/cpl6/map_JRA025_to_tnx1v4_e1000r300_170928.nc
